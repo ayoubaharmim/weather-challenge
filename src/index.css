@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Icon {
+  display: block;
+  width: 7.875rem;
+  height: 7.875rem;
+  margin: 2rem auto;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Icon--Rain {
+  background-image: url('./assets/images/Rain.svg')
+}
+
+.Icon--Drizzle {
+  background-image: url('./assets/images/Drizzle.svg')
+}
+
+.Icon--Clouds {
+  background-image: url('./assets/images/Clouds.svg')
+}
+
+.Icon--Clear {
+  background-image: url('./assets/images/Clear.svg')
+}
+
+.Icon--Snow {
+  background-image: url('./assets/images/Snow.svg')
+}
+
+.Icon--Thunderstorm {
+  background-image: url('./assets/images/Thunderstorm.svg')
+}
